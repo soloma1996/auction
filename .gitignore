@@ -1,0 +1,6 @@
+/packages/*
+/auction/bin/*
+/*/bin/*/*
+/*/obj/*/*
+/.vs/auction/v15/*
+/auction/*.csproj.user

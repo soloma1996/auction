@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auction", "auction\auction.csproj", "{BE3F2982-D9A2-4619-938F-B5495F0A25D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auction.DAL", "auction.DAL\auction.DAL.csproj", "{2F6D362A-BD9D-4DDD-A7C5-AC2AF73FD129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE3F2982-D9A2-4619-938F-B5495F0A25D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3F2982-D9A2-4619-938F-B5495F0A25D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3F2982-D9A2-4619-938F-B5495F0A25D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3F2982-D9A2-4619-938F-B5495F0A25D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6D362A-BD9D-4DDD-A7C5-AC2AF73FD129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6D362A-BD9D-4DDD-A7C5-AC2AF73FD129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6D362A-BD9D-4DDD-A7C5-AC2AF73FD129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6D362A-BD9D-4DDD-A7C5-AC2AF73FD129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73B1A5C-145D-40EB-97BF-A1B053538881}
+	EndGlobalSection
+EndGlobal

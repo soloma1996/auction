@@ -56,9 +56,18 @@
   <ItemGroup>
     <Compile Include="AuctionContext.cs" />
     <Compile Include="Configuration\UserConfig.cs" />
+    <Compile Include="Configuration\User_RoleConfig.cs" />
     <Compile Include="Migrations\201809171344481_Initial.cs" />
     <Compile Include="Migrations\201809171344481_Initial.Designer.cs">
       <DependentUpon>201809171344481_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809181310513_V_1.cs" />
+    <Compile Include="Migrations\201809181310513_V_1.Designer.cs">
+      <DependentUpon>201809181310513_V_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809181324222_V_2.cs" />
+    <Compile Include="Migrations\201809181324222_V_2.Designer.cs">
+      <DependentUpon>201809181324222_V_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Lot.cs" />
@@ -76,6 +85,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809171344481_Initial.resx">
       <DependentUpon>201809171344481_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809181310513_V_1.resx">
+      <DependentUpon>201809181310513_V_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809181324222_V_2.resx">
+      <DependentUpon>201809181324222_V_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -69,15 +69,15 @@ namespace auction
 
             // Регистрация поставщиков двухфакторной проверки подлинности. Для получения кода проверки пользователя в данном приложении используется телефон и сообщения электронной почты
             // Здесь можно указать собственный поставщик и подключить его.
-            manager.RegisterTwoFactorProvider("Код, полученный по телефону", new PhoneNumberTokenProvider<User, int>
-            {
-                MessageFormat = "Ваш код безопасности: {0}"
-            });
-            manager.RegisterTwoFactorProvider("Код из сообщения", new EmailTokenProvider<User, int>
-            {
-                Subject = "Код безопасности",
-                BodyFormat = "Ваш код безопасности: {0}"
-            });
+            //manager.RegisterTwoFactorProvider("Код, полученный по телефону", new PhoneNumberTokenProvider<User, int>
+            //{
+            //    MessageFormat = "Ваш код безопасности: {0}"
+            //});
+            //manager.RegisterTwoFactorProvider("Код из сообщения", new EmailTokenProvider<User, int>
+            //{
+            //    Subject = "Код безопасности",
+            //    BodyFormat = "Ваш код безопасности: {0}"
+            //});
             manager.EmailService = new EmailService();
             manager.SmsService = new SmsService();
             var dataProtectionProvider = options.DataProtectionProvider;

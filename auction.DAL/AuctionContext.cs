@@ -11,7 +11,8 @@ namespace auction.DAL
         public AuctionContext()
             : base(nameof(AuctionContext))
         {
-
+            Configuration.LazyLoadingEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -20,5 +21,8 @@ namespace auction.DAL
 
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Lot> Lots { get; set; }
+
     }
 }
